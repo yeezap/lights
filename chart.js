@@ -1,12 +1,3 @@
-function toggle()
-{
- object = document.getElementById("table")
-  if( object.className == "visible" )
-  {
-    object.className = "invisible";
-  }
-  else
-  {
-    object.className = "visible";
-  }
-}
+document.getElementById('clickMeButton').addEventListener('click', function () {
+    alert('Hello! Thanks for clicking the button!');
+});
