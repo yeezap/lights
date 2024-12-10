@@ -1,3 +1,3 @@
 document.getElementById('clickMeButton').addEventListener('click', function () {
-    alert('Hello! Thanks for clicking the button!');
+    alert(<script async src="//jsfiddle.net/7abzvypq/embed/"></script>);
 });
