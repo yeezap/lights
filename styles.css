@@ -42,7 +42,7 @@ section#about, section#contact {
     background: #fff;
 }
 
-#map {
+map {
   height: 100%;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 /* Display the control once it is inside the map. */
-#map .map-control {
+map .map-control {
   display: block;
 }
 
@@ -79,7 +79,14 @@ body {
   padding-right: 5px;
 }
 
-
+button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 button:hover {
     background: #0056b3;
 }
