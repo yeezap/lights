@@ -13,7 +13,6 @@ function initMap() {
 
 const styles = {
   default: [],
-  silver: [
     {
       elementType: "geometry",
       stylers: [{ color: "#f5f5f5" }],
