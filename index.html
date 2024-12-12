@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website</title>
+    <title>YEEZAP LIGHTS</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
@@ -20,28 +20,29 @@
 
     <section id="home">
         <h1>YEEZAPS</h1>
-        <p>A simple map of the brightness of the streets.</p>
-
+        <p>Map of the brightness of the streets.</p> 
+        <button id="clickMeButton">Click Me</button>
         <div id="style-selector-control" class="map-control">
-      <select id="style-selector" class="selector-control" aria-label="Map style">
-        <option value="default">Default</option>
-        <option value="silver">Silver</option>
-        <option value="night">Night mode</option>
-        <option value="retro" selected="selected">Retro</option>
-        <option value="hiding">Hide features</option>
-      </select>
-    </div>
-    <div id="map"></div>
-   
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
-      defer
-    ></script>
+          <select id="style-selector" class="selector-control" aria-label="Map style">
+            <option value="default">Default</option>
+            <option value="silver">Silver</option>
+            <option value="night">Night mode</option>
+            <option value="retro" selected="selected">Retro</option>
+            <option value="hiding">Hide features</option>
+          </select>
+        </div>
+        <div id="map"></div>
+
+
+        <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+          defer
+        ></script>
     </section>
 
     <section id="about">
         <h2>About</h2>
-        <p>Red, yellow, and green represent dark, middle, and bright respectively.</p>
+        <p>Red, orange, and green represent dark, middle, and bright respectively.</p>
     </section>
 
     <section id="contact">
