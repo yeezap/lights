@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: #000000;
+    background: black;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -92,7 +92,7 @@ button:hover {
 }
 
 footer {
-    background: #000000;
+    background: black;
     color: white;
     text-align: center;
     padding: 10px 0;
