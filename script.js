@@ -1,6 +1,6 @@
 
-let map;
 
+  
 function initMap() {
   // Create the map with no initial style specified.
   // It therefore has default styling.
