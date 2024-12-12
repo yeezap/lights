@@ -9,7 +9,9 @@ function initMap() {
     zoom: 13,
     mapTypeControl: false,
   });
-const styleControl = document.getElementById("style-selector-control");
+
+  // Add a style-selector control to the map.
+  const styleControl = document.getElementById("style-selector-control");
 
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(styleControl);
 
@@ -22,10 +24,10 @@ const styleControl = document.getElementById("style-selector-control");
     map.setOptions({ styles: styles[styleSelector.value] });
   });
 }
- 
 
 const styles = {
   default: [],
+  silver: [
     {
       elementType: "geometry",
       stylers: [{ color: "#f5f5f5" }],
